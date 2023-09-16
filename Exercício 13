@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int main(void) {
+float N, res;
+  
+  printf("Vamos calcular a tabuada!!\n");
+  printf("Digite um número: ");
+  scanf("%f", &N);
+
+  res= 0*N;
+  printf("0x = %2.f\n", res);
+  
+  res= 1*N;
+  printf("1x = %2.f\n", res);
+  
+  res= 2*N;
+  printf("2x = %2.f\n", res);
+
+  res= 3*N;
+  printf("3x = %2.f\n", res);
+
+  res= 4*N;
+  printf("4x = %2.f\n", res);
+
+  res= 5*N;
+  printf("5x = %2.f\n", res);
+
+  res= 6*N;
+  printf("6x = %2.f\n", res);
+
+  res= 7*N;
+  printf("7x = %2.f\n", res);
+  
+  res= 8*N;
+  printf("8x = %2.f\n", res);
+  
+  res= 9*N;
+  printf("9x = %2.f\n", res);
+  
+  res= 10*N;
+  printf("10x = %2.f\n", res);
+
+  return 0;
+}
