@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void) {
+  int num;
+  float n1, soma;
+
+  printf("Digite um número: ");
+  scanf("%f", &n1);
+
+  printf("Os números pares são: ");
+    for(int num=2; num<=n1; num+=2)
+      {
+         if(num%2==0)
+        {  
+        printf("%d\t", num);
+        soma += num;  
+        }
+      }
+  
+
+  printf(" \nA soma desses números é: %2.f", soma);
+  return 0;
+}
