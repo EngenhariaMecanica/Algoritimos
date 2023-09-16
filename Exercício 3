@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() {
+  float base, altura, Atriangulo, Aretangulo, Acirculo, raio;
+
+  printf("Área do círculo.\n");
+  
+  printf("Digite o raio do cículo em centímetros: ");
+  scanf("%f", &raio);
+
+  Acirculo = (raio*raio*3.14);
+  printf("A área do circulo é = %.2f cm\n ", Acirculo);
+
+  printf("\nÁrea do triângulo.\n");
+  printf("Digite a base do triângulo em centímetros: ");
+  scanf("%f", &base);
+  printf("Digite a altura do triângulo em centímetros: ");
+  scanf("%f", &altura);
+
+  Atriangulo = (base*altura)/2;
+  printf("A área do triângulo é = %.2f cm\n ", Atriangulo);
+  
+  printf("\nÁrea do retângulo.\n");
+  printf("Digite a base do retângulo em centímetros: ");
+  scanf("%f", &base);
+  printf("Digite a altura do retângulo em centímetros: ");
+  scanf("%f", &altura);
+
+  Aretangulo = (base*altura);
+  printf("A área do retângulo é = %.2f cm\n ", Aretangulo);
+  
+  return 0;
+}
