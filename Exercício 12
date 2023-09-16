@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void) {
+  float port, mat, con_esp, media;
+  
+  printf("\n\tVamos saber se você foi aprovado no concurso ou não!\n");
+  printf("\nDigite a sua pontuação em português: ");
+  scanf("%f", &port);
+
+  printf("\nDigite a sua pontuação em matemática: ");
+  scanf("%f", &mat);
+
+  printf("\nDigite a sua pontuação em conhecimentos especificos: ");
+  scanf("%f", &con_esp);
+  
+  media = ((port*2)+ mat + (con_esp*2))/5;
+
+  if (media>=60){
+    printf("\n\tCandidato aprovado!");
+  }
+  else {
+    printf("\n\tCandidato Reprovado!");
+  }
+  return 0;
+}
