@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int main(void) {
+  float num1, num2, adição, subtração, mutiplicação, divisão;
+
+  printf(" -Adição de dois números. \n");
+  printf("Digite o primeiro número:");
+  scanf("%f", &num1);
+  printf("Digite o segundo número:");
+  scanf("%f", &num2);
+
+  adição = num1 + num2;
+  printf("A adição desses dois números é = %.2f\n", adição);
+
+  printf("\n -Subtração de dois números. \n");
+  printf("Digite o primeiro número:");
+  scanf("%f", &num1);
+  printf("Digite o segundo número:");
+  scanf("%f", &num2);
+
+  subtração = num1 - num2;
+  printf("A subtração desses dois números é = %2.f\n", subtração);
+
+  printf("\n -Mutiplicação de dois números. \n");
+  printf("Digite o primeiro número:");
+  scanf("%f", &num1);
+  printf("Digite o segundo número:");
+  scanf("%f", &num2);
+
+  mutiplicação = num1 * num2;
+  printf("A mutiplicação desses dois números é = %.2f\n", mutiplicação);
+
+  printf(" \n -Divisão de dois números. \n");
+  printf("Digite o primeiro número:");
+  scanf("%f", &num1);
+  printf("Digite o segundo número:");
+  scanf("%f", &num2);
+
+  divisão = num1 / num2;
+  printf("A divisão desses dois números é = %.2f\n", divisão);
+
+  
+  return 0;
+}
