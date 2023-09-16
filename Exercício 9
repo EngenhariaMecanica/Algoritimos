@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+  int senha, senha_valida = 20232023;
+
+  printf(" Digite a sua senha: ");
+  scanf("%d", &senha);
+
+  while (senha != senha_valida) {
+  printf("Senha Incorreta");
+  printf("\nDigite a senha novamente: ");
+  scanf("%d", &senha);
+  }
+  printf("Senha correta");
+  return 0;
+}
