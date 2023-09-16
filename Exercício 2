@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+  float altura, peso, IMC;
+
+    printf("Digitar a altura:");
+    scanf("%f", &altura);
+    
+    printf("Digitar o peso:");
+    scanf("%f", &peso);
+
+    IMC = peso/ (altura*altura);
+
+    printf("Seu IMC é: %.2f\n", IMC);
+    
+    if(IMC <18.5) {
+    printf("magreza!\n");
+    } else {
+    if(IMC >18.5 && IMC <=25)
+    printf("normal!\n");
+    } 
+    if(IMC >25 && IMC <=29.9) {
+    printf("sobrepeso!\n");
+    } else 
+    if(IMC >29.9 && IMC <=34.9) {
+    printf("obesidade tipo 1!\n");
+    } 
+    if(IMC >34.9 && IMC <= 40) {
+    printf("obesidade tipo 2!\n");
+    } 
+    if(IMC >40) {
+    printf("obesidade tipo 3!\n");
+    } 
+  
+  return 0;
+}
